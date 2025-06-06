@@ -8,13 +8,13 @@ export default function SimpleServices() {
       {/* <p className="text-sm mb-4">Trusted by 30+ businesses worldwide</p> */}
       <div className="relative w-full flex overflow-hidden">
         <motion.div
-          className="flex space-x-8 text-3xl font-[MyFont2]"
+          className="flex space-x-8 sm:text-xl text-lg font-[MyFont2]"
           initial={{ x: "-10%" }}
           animate={{ x: "-55%" }}
           transition={{
             repeat: Infinity,
             ease: "linear",
-            duration: 55, // Adjust speed here
+            duration: 45, // Adjust speed here
           }}
         >
           {/* Repeating business names for seamless effect */}
