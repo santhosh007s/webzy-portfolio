@@ -285,7 +285,7 @@ export default function Hero() {
     
     {/* Badge Container - INDEPENDENT POSITIONING */}
     <div className="absolute top-0 left-1/2 transform -translate-x-1/2 flex items-center justify-center w-full translate-y-[-65px] sm:translate-y-[-80px] z-30">
-      <div className="relative transform translate-y-[200px] sm:translate-y-[260px]">
+      <div className="relative transform translate-y-[175px] sm:translate-y-[260px]">
         <div className="inline-block rounded-full bg-[#1a1a1a] px-2 py-[2px] text-xs sm:px-4 sm:py-1 sm:text-sm text-white border border-neutral-700">
           <span className="inline-block rounded-full bg-[#131316] px-[4px] py-[2px] mr-1 text-xs sm:px-2 sm:py-0 sm:mr-3 sm:text-sm">
             🔥
@@ -295,23 +295,36 @@ export default function Hero() {
       </div>
     </div>
     
-    {/* Heading Container - INDEPENDENT POSITIONING */}
-    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 flex items-center justify-center w-full translate-y-[-32px] sm:translate-y-[-110px] z-20">
-      <div className="relative transform sm:translate-y-[-120px] translate-y-[-160px]">
-        <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold leading-tight w-full text-center mx-auto px-0">
-          We Don't Just Build Websites,<br />
-          <span className="block text-blue-200">
-            We Build Your Digital Legacy
-          </span>
-        </h1>
-      </div>
-    </div>
-    
+    {/* Desktop/Laptop heading */}
+<div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 sm:block hidden flex items-center justify-center w-full translate-y-[-110px] z-20">
+  <div className="relative transform sm:translate-y-[-120px]">
+    <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold leading-tight w-full text-center mx-auto px-0">
+      We Don't Just Build Websites,<br />
+      <span className="block text-blue-200">
+        We Build Your Digital Legacy
+      </span>
+    </h1>
+  </div>
+</div>
+
+{/* Mobile heading */}
+<div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 flex sm:hidden items-center justify-center w-full translate-y-[-32px] z-20">
+  <div className="relative transform translate-y-[-210px]">
+    <h1 className="text-5xl sm:text-5xl md:text-7xl font-bold leading-tight w-full text-center mx-auto px-0">
+      We Don't Just Build Websites,
+      <span className="block text-blue-200">
+       We Build Your Digital Legacy
+      </span>
+    </h1>
+  </div>
+</div>
+
+
     {/* Description Container - INDEPENDENT POSITIONING */}
     <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center w-full z-20">
       <div className="relative transform translate-y-[0px]">
         <div className="text-center flex flex-col items-center justify-center">
-          <p className="text-gray-400 text-sm leading-relaxed px-0 sm:hidden text-center mx-auto translate-y-[40px]">
+          <p className="text-gray-400 text-sm leading-relaxed px-0 sm:hidden text-center mx-auto translate-y-[50px]">
             We craft stunning websites that don't just look good they build
             trust, drive results, and turn visitors into loyal clients.
           </p>
@@ -337,7 +350,7 @@ export default function Hero() {
       <div className="relative transform translate-y-[100px] sm:translate-y-[130px]">
         <div className="flex items-center justify-center gap-4 flex-wrap">
            <Link href="https://cal.com/santhosh-perumal-qwqkgl/15min" passHref>
-          <button className="sm:px-6 sm:py-3 py-2 px-2 rounded-md bg-blue-600 hover:bg-blue-700 text-white font-medium transition">
+          <button className="sm:px-6 sm:py-3 py-2 px-2 rounded-md bg-blue-600 hover:bg-blue-900 text-white font-medium transition">
             Let's build yours
           </button>
         </Link>

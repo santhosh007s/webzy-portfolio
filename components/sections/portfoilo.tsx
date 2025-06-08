@@ -20,12 +20,12 @@ const links = [
  
 ]
 
-export function MouseTrailDemo() {
+export function DeskPort() {
   return (
-    <section className="mx-auto w-full max-w-4xl rounded-[24px] border border-black/5 p-2 shadow-sm md:rounded-t-[44px]">
+    <section className="mx-auto w-full max-w-4xl rounded-[24px] border border-black/5 p-2 shadow-sm md:rounded-t-[44px] mt-[-15%] md:mt-30 ">
       <div className="relative mx-auto flex w-full flex-col items-center justify-center rounded-[24px] border border-black/5 shadow-sm md:gap-8 md:rounded-b-[20px] md:rounded-t-[40px]">
         <article className="relative z-50 mt-20 flex flex-col items-center justify-center">
-          <h1 className="max-w-2xl text-center text-5xl text-white font-semibold tracking-tight">
+          <h1 className="max-w-2xl text-center sm:text-5xl text-3xl text-white font-semibold tracking-tight">
             Our Recent works
           </h1>
         </article>
