@@ -51,7 +51,7 @@ export function Footer({
             // Change 'items-center' to 'items-start' or 'items-end' to move vertically
           >
             {logo}
-            <span className="font-bold  text-3xl text-[#4A8BEF]">{brandName}</span>
+            <span className="font-bold font-myfont text-3xl text-[#4A8BEF]">{brandName}</span>
           </a>
 
           <ul

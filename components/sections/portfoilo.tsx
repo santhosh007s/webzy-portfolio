@@ -7,7 +7,7 @@ import HoverExpand from "../ui/port-elem"
 import Image from "next/image";
 
 const images = [
-  "/a1.png",
+  "/aura.png",
   "/eco.png",
   "/temp1.png",
   "/temp2.png",
