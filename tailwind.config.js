@@ -1,7 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  content: [
+    "./app/**/*.{js,ts,jsx,tsx}", // or "src/**/*" depending on your project structure
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
+      fontFamily: {
+
+myfont: "var(--font-myfont)",      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
@@ -18,4 +26,5 @@ module.exports = {
       },
     },
   },
+  plugins: [],
 }

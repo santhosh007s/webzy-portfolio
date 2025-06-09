@@ -689,17 +689,18 @@ export function Pricing({
   };
 
   return (
-    <div className="container py-20">
+    <div className="container py-20 md:mt-15">
       <div className="text-center space-y-4 mb-12">
-        <h2 className="text-3xl md:text-6xl font-bold tracking-tight text-white">
+        <h2 className="text-3xl md:text-6xl font-bold tracking-tight text-white mt-[-5%] md:mt-20" >
           {title}
         </h2>
-        <p className="text-gray-400 md:text-lg text-sm whitespace-pre-line">
-          {description}
-        </p>
+      <p className="text-[#4a8bef] md:text-lg text-sm whitespace-pre-line max-w-sm md:max-w-5xl mx-auto">
+  {description}
+</p>
+
       </div>
 
-      <div className="flex flex-col gap-4 items-center md:mt-0 md:grid md:grid-cols-3 md:items-stretch">
+      <div className="flex flex-col gap-4 items-center md:mt-10 relative -translate-y-15  md:translate-y-6 md:grid md:grid-cols-3 md:items-stretch">
         {plans.map((plan, index) => (
           <motion.div
             key={index}
@@ -726,7 +727,7 @@ export function Pricing({
             className={cn(
               "relative rounded-2xl border border-border p-5 text-center bg-[#1A1A1A] flex flex-col justify-between",
               plan.isPopular ? "border-white border-2" : "border-border",
-              "w-full max-w-[320px] md:max-w-none",
+              "w-full max-w-[340px] md:max-w-none",
               "mx-auto md:mx-0",
               isDesktop && (index === 0 || index === 2)
                 ? "z-0 transform translate-x-0 translate-y-0 -translate-z-[50px] rotate-y-[10deg]"

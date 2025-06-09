@@ -4,22 +4,23 @@ import Image from "next/image";
 
 function Footercomp() {
   return (
-    <div className="w-full">
+    <div className="w-full relative mt-[-25%] md:mt-0 md:-translate-y-0 ">
       <Footer
-           logo={
-          <Image
-            src="/logo.png" // Make sure this path is correct and the image exists
-            alt="Webzy Studios Logo"
-            width={60}
-            height={60}
-            className="ml-10 w-auto"
-            priority
-          />}
+          //  logo={
+          // <Image
+          //   src="/logo.png" // Make sure this path is correct and the image exists
+          //   alt="Webzy Studios Logo"
+          //   href="/"
+          //   width={60}
+          //   height={60}
+          //   className="ml-10 w-auto"
+          //   priority
+          // />}
           
         brandName="Webzy Studios"
         socialLinks={[
           {
-            icon: <Twitter className="h-5 w-5" />,
+            icon: <Twitter className="h-5 w-5 " />,
             href: "https://twitter.com",
             label: "Twitter",
           },
@@ -40,7 +41,7 @@ function Footercomp() {
           { href: "/terms", label: "Terms" },
         ]}
         copyright={{
-          text: "© 2025 WEBZY STUDIOS",
+          text: "© 2025 Webzystudios All rights reserved",
           license: "All rights reserved",
         }}
       />

@@ -267,7 +267,7 @@ const TestimonialsSection: React.FC = () => {
   };
 
   return (
-    <div className=" text-white relative overflow-hidden min-h-screen">
+    <div className=" text-white relative overflow-hidden min-h-screen md:mt-65">
       <div className="container mx-auto px-4 md:px-6 py-12 md:py-16">
         <div className="text-center mb-8 md:mb-16">
           <motion.h1

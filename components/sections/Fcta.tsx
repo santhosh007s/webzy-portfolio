@@ -25,9 +25,9 @@ export function Cta() {
     },
   ];
   return (
-  <div className="flex flex-col items-center justify-center h-[20rem]">
+<div className="flex flex-col items-center justify-center h-[20rem] -translate-y-20 md:-translate-y-15  ">
   <TypewriterEffectSmooth words={words} />
-  <div className="flex flex-row space-x-4 mt--8 sm:mt-4">
+  <div className="flex flex-row space-x-4 mt-[-3%] md:mt-4">
     <Link href="https://cal.com/santhosh-perumal-qwqkgl/15min" passHref>
       <button className="sm:px-6 sm:py-3 py-1.5 px-1.5 rounded-md bg-blue-600 hover:bg-blue-700 text-white font-medium transition">
         Let's build yours

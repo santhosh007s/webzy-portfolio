@@ -3,7 +3,11 @@
 
 @custom-variant dark (&:is(.dark *));
 
+
+
+
 @theme inline {
+  
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
@@ -196,4 +200,20 @@
 
 .scrollbar-hide::-webkit-scrollbar {
   display: none; /* Chrome, Safari and Opera */
+}
+
+
+
+@font-face {
+  font-family: "MyFont";
+  src: url("../public/fonts/Myfont.ttf") format("truetype");
+  font-weight: 400 700;          /* <- covers normal + bold */
+  font-style: normal;
+  font-display: swap;
+}
+
+/*  ─── 3) Expose it to Tailwind v4  ──────────────────────────────────── */
+@theme {
+  --font-myfont: "MyFont", sans-serif;
+  /* (optional) font-feature / variation settings … */
 }

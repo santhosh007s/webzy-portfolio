@@ -39,7 +39,7 @@ const items = [
 ;
 function Component() {
   return (
-    <div className="flex justify-center items-center min-h-screen bg-black px-4">
+    <div className="flex justify-center items-center min-h-screen px-4 relative -translate-y-30 md:-translate-y-50">
       <div className="space-y-4 max-w-[700px] w-full">
         <h2 className="text-center text-white font-bold md:text-5xl lg:text-5xl text-xl">
           FAQ
