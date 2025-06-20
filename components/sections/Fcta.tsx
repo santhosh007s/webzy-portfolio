@@ -33,11 +33,12 @@ export function Cta() {
         Let's build yours
       </button>
     </Link>
-    <Link href="/" passHref>
-      <button className="sm:px-6 sm:py-3 py-1.5 px-1.5 rounded-md bg-neutral-800 hover:bg-neutral-700 text-white font-medium transition">
-        Our works
-      </button>
-    </Link>
+      <a
+  href="#works"
+  className="sm:px-6 sm:py-3 py-2 px-2 rounded-md bg-neutral-800 hover:bg-neutral-700 text-white font-medium transition"
+>
+  Our works
+</a>
   </div>
 </div>
 

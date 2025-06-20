@@ -1,4 +1,5 @@
 "use client";
+import Link from 'next/link'
 
 import React, { useEffect } from "react";
 import Image from "next/image";
@@ -18,28 +19,30 @@ const NavBar = () => {
       justify-between rounded-xl shadow-lg">
       
       <div className="flex items-center justify-start w-1/4 pr-2 sm:pr-4">
-        <Image
-          src="/logo.png"
-          alt="logo"
-          width={50}
-          height={50}
-          priority
-          unoptimized
-          className="cursor-pointer object-contain w-12 sm:w-16 h-auto"
-        />
-      </div>
+  <Link href="/">
+    <Image
+      src="/logo.png"
+      alt="logo"
+      width={50}
+      height={50}
+      priority
+      unoptimized
+      className="cursor-pointer object-contain w-12 sm:w-16 h-auto"
+    />
+  </Link>
+</div>
 
       {/* Navigation Buttons */}
-      <div className="w-3/4 flex justify-around items-center space-x-2 sm:space-x-6 text-sm sm:text-base font-semibold">
-        <button className="text-gray-400 drop-shadow-md hover:text-[#4B8AEF] transition-all">
-          Services
-        </button>
-        <button className="text-gray-400 drop-shadow-md hover:text-[#4B8AEF] transition-all">
-          Works
-        </button>
-        <button className="text-gray-400 drop-shadow-md hover:text-[#4B8AEF] transition-all">
-          Contact
-        </button>
+   <div className="w-3/4 flex justify-around items-center space-x-2 sm:space-x-6 text-sm sm:text-base font-semibold">
+  <a href="#services" className="text-gray-400 drop-shadow-md hover:text-[#4B8AEF] transition-all">
+    Services
+  </a>
+  <a href="#works" className="text-gray-400 drop-shadow-md hover:text-[#4B8AEF] transition-all">
+    Works
+  </a>
+  <a href="#contact" className="text-gray-400 drop-shadow-md hover:text-[#4B8AEF] transition-all">
+    Contact
+  </a>
       </div>
     </div>
   </div>

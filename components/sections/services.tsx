@@ -81,7 +81,7 @@ const demoPlans = [
 
 function PricingBasic() {
   return (
-    <div className="md:h-[800px] rounded-lg  text-white flex justify-center mt-[-50%] md:mt-[-15%] ">
+    <div  id="services" className="md:h-[800px] rounded-lg  text-white flex justify-center mt-[-50%] md:mt-[-15%] ">
       <Pricing
         plans={demoPlans}
         title="Our Services"

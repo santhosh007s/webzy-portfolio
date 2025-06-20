@@ -217,3 +217,7 @@
   --font-myfont: "MyFont", sans-serif;
   /* (optional) font-feature / variation settings … */
 }
+
+html {
+  scroll-behavior: smooth;
+}

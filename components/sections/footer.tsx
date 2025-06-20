@@ -1,4 +1,6 @@
-import { Hexagon, Github, Twitter } from "lucide-react"
+import { Twitter, Instagram, Mail, Linkedin } from "lucide-react";
+
+
 import { Footer } from "@/components/ui/footer-elem"
 import Image from "next/image";
 
@@ -18,18 +20,29 @@ function Footercomp() {
           // />}
           
         brandName="Webzy Studios"
-        socialLinks={[
-          {
-            icon: <Twitter className="h-5 w-5 " />,
-            href: "https://twitter.com",
-            label: "Twitter",
-          },
-          {
-            icon: <Github className="h-5 w-5" />,
-            href: "https://github.com",
-            label: "GitHub",
-          },
-        ]}
+     
+socialLinks={[
+  {
+    icon: <Twitter className="h-5 w-5 text-[#4b8aef]" />,
+    href: "https://twitter.com",
+    label: "Twitter",
+  },
+  {
+    icon: <Instagram className="h-5 w-5 text-[#4b8aef]" />,
+    href: "https://instagram.com",
+    label: "Instagram",
+  },
+  {
+    icon: <Mail className="h-5 w-5 text-[#4b8aef]" />,
+    href: "mailto:webzystudios@gmail.com",
+    label: "Email",
+  },
+    {
+    icon: <Linkedin className="h-5 w-5 text-[#4b8aef] " />,
+    href: "https://linkedin.com",
+    label: "Linkedin",
+  },
+]}
         mainLinks={[
           { href: "/products", label: "Products" },
           { href: "/about", label: "About" },
@@ -41,7 +54,7 @@ function Footercomp() {
           { href: "/terms", label: "Terms" },
         ]}
         copyright={{
-          text: "© 2025 Webzystudios All rights reserved",
+          text: "© 2025 Webzystudios",
           license: "All rights reserved",
         }}
       />

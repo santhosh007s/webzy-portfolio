@@ -17,7 +17,6 @@ export default function SimpleServices() {
             duration: 45, // Adjust speed here
           }}
         >
-          {/* Repeating business names for seamless effect */}
           <span>Website Development</span>
           <span>React.js</span>
           <span>Node.js</span>
@@ -42,7 +41,6 @@ export default function SimpleServices() {
           <span>UI/UX Design</span>
           <span>Responsive Design</span>
           <span>Performance Optimization</span>
-          {/* Duplicate for smooth looping effect */}
         </motion.div>
       </div>
     </div>

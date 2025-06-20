@@ -28,3 +28,4 @@ myfont: "var(--font-myfont)",      },
   },
   plugins: [],
 }
+

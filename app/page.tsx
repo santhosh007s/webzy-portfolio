@@ -23,15 +23,19 @@ export default function Home() {
   {/* Main Sections with Black Background */}
   <div className="bg-black flex flex-col overflow-hidden">
     <WhyWebzy />
-    <div className="hidden md:block">
+    <div id="works" >
+        <div className=" hidden md:block ">
       <DeskPort />
     </div>
     <div className="block md:hidden">
-      <MobilePort />
+      <MobilePort  />
     </div>
-    <PricingBasic />
+
+    </div>
+  
+    <PricingBasic id="services" />
     <TestimonialsSection />
-    <Contact />
+    <Contact id="contact" />
     <Cta />
     <Footercomp />
   </div>
