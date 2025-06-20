@@ -7,7 +7,6 @@ export default function Hero() {
   return (
     <section className="relative bg-[#0e0e0e] text-white min-h-screen flex items-center justify-center px-6 md:px-12 overflow-hidden">
 
-      {/* Grid Pattern Background */}
       <div
         className="absolute inset-0 z-0 pointer-events-none"
         style={{

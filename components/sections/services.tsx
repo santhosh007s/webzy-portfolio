@@ -26,7 +26,7 @@ const demoPlans = [
       "3 expert tweaks included"
     ],
     description: "Perfect for individuals and small projects",
-    buttonText: "Get started",
+    buttonText: "Lets Build Yours",
     href: "https://cal.com/santhosh-perumal-qwqkgl/15min",
     isPopular: false,
   },
@@ -50,7 +50,7 @@ const demoPlans = [
       "5 expert revisions included"
     ],
     description: "Ideal for growing teams and businesses",
-    buttonText: "Get Started",
+    buttonText: "Lets Build Yours",
     href: "https://cal.com/santhosh-perumal-qwqkgl/15min",
     isPopular: true,
   },
@@ -73,7 +73,7 @@ const demoPlans = [
       "Designed to impress big"
     ],
     description: "For large organizations with specific needs",
-    buttonText: "Contact Sales",
+    buttonText: "Lets Build Yours",
     href: "https://cal.com/santhosh-perumal-qwqkgl/15min",
     isPopular: false,
   },
