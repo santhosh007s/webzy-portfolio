@@ -37,9 +37,9 @@ const items = [
   }
 ]
 ;
-function Component() {
+function FaqComp() {
   return (
-    <div className="flex justify-center items-center min-h-screen px-4 relative -translate-y-30 md:-translate-y-50">
+    <div className="flex justify-center items-center min-h-screen px-4 relative -translate-y-30 md:-translate-y-5 ">
       <div className="space-y-4 max-w-[700px] w-full">
         <h2 className="text-center text-white font-bold md:text-5xl lg:text-5xl text-xl">
           FAQ
@@ -70,4 +70,4 @@ function Component() {
 }
 
 
-export { Component };
+export { FaqComp };

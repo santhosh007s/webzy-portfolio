@@ -48,12 +48,13 @@ import Head from "next/head";
 import Hero from "@/components/sections/hero";
 import NavBar from "@/components/ui/navbar-elem";
 import TestimonialsSection from "@/components/sections/terstisec";
-import { Component } from "@/components/sections/faq";
+// import { Component } from "@/components/sections/faq";
 import Contact from "@/components/sections/contactus";
 import { Cta } from "@/components/sections/Fcta";
 import { PricingBasic } from "@/components/sections/services";
 import { DeskPort } from "@/components/sections/portfoilo";
 import { Footercomp } from "@/components/sections/footer";
+import { FaqComp } from "@/components/sections/faq";
 import { WhyWebzy } from "@/components/sections/whywebzy";
 import { MobilePort } from "@/components/sections/mob-port";
 
@@ -81,6 +82,7 @@ export default function Home() {
         <PricingBasic  />
 </div>
         <TestimonialsSection />
+        <FaqComp/>
         <div id="contact">
         <Contact  />
 

@@ -22,7 +22,7 @@ export default function Contact() {
   }, []);
 
   return (
-    <section id="contact" className="min-h-screen  text-white px-4 md:translate-y-8 py-20 flex flex-col items-center justify-center">
+    <section id="contact" className="min-h-screen  text-white px-4 md:-translate-y-30 py-20 -translate-y-55 flex flex-col items-center justify-center">
       <div className="text-center mb-10">
         <h2 className="text-3xl sm:text-5xl font-bold mb-4">
           Book a Free 15-Minute Call

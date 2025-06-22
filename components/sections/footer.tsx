@@ -6,7 +6,7 @@ import Image from "next/image";
 
 function Footercomp() {
   return (
-    <div className="w-full relative mt-[-25%] md:mt-0 md:-translate-y-0 ">
+    <div className="w-full relative mt-[-55%] md:mt-0 md:-translate-y- ">
       <Footer
         brandName="Webzy Studios"
      
@@ -26,11 +26,7 @@ socialLinks={[
     href: "mailto:webzystudios@gmail.com",
     label: "Email",
   },
-  //   {
-  //   icon: <Linkedin className="h-5 w-5 text-[#4b8aef] " />,
-  //   href: "https://linkedin.com",
-  //   label: "Linkedin",
-  // },
+
 ]}
         mainLinks={[
           { href: "/products", label: "Products" },

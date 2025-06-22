@@ -25,7 +25,7 @@ export function Cta() {
     },
   ];
   return (
-<div className="flex flex-col items-center justify-center h-[20rem] -translate-y-20 md:-translate-y-15  ">
+<div className="flex flex-col items-center justify-center h-[20rem] -translate-y-55 md:-translate-y-25  ">
   <TypewriterEffectSmooth words={words} />
   <div className="flex flex-row space-x-4 mt-[-3%] md:mt-4">
     <Link href="https://cal.com/santhosh-perumal-qwqkgl/15min" passHref>
