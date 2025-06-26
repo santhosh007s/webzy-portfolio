@@ -75,7 +75,7 @@ export default function Hero() {
             </div>
 
             {/* Arrow */}
-            <div className="hidden sm:block absolute left-68 top-[210px] transform -translate-y-1/2 -translate-x-30">
+            <div className="hidden sm:block absolute left-79 top-[210px] transform -translate-y-1/2 -translate-x-30">
               <div className="relative transform translate-y-[0px] translate-x-[0px]">
                 <Arrow />
               </div>
@@ -104,7 +104,7 @@ export default function Hero() {
         </div>
 
         {/* Trust Badge */}
-        <div className="relative transform sm:translate-y-[800px] translate-y-[570px] flex items-center justify-center">
+        <div className="relative transform md:translate-y-[750px] translate-y-[570px] flex items-center justify-center">
           <h3 className="text-sm sm:text-lg">
             webzy is Trusted by <span className="text-blue-300">10+ brands </span>worldwide
           </h3>
@@ -112,7 +112,7 @@ export default function Hero() {
 
         {/* Services Section */}
         <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 flex items-center justify-center w-full z-20">
-          <div className="relative transform md:translate-y-[-80px] translate-y-[-110px]">
+          <div className="relative transform md:translate-y-[-65px] translate-y-[-110px]">
             <div className="w-full max-w-6xl flex items-center justify-center">
               <SimpleServices />
             </div>
