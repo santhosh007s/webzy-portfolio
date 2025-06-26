@@ -56,7 +56,12 @@ export const metadata: Metadata = {
     images: ["https://webzystudios.com/og-image.jpg"],
   },
   icons: {
-    icon: "/webzylogo.png", 
+    icon: "/webzylogo.png",
+  },
+
+  // ✅ Google Search Console Verification
+  verification: {
+    google: "TSyix6K7GzXw9h76jf6eKx0P5LbcFzM_il3_1Cdc_EM",
   },
 };
 
@@ -67,7 +72,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
         {children}
       </body>
     </html>
