@@ -1,4 +1,3 @@
-
 import { cn } from "@/components/lib/utils";
 import {
   IconAdjustmentsBolt,
@@ -84,9 +83,9 @@ const Feature = ({
       )}
     >
       {index < 4 ? (
-        <div className="opacity-0 group-hover/feature:opacity-100 transition duration-200 absolute inset-0 h-full w-full bg-gradient-to-t from-neutral-100 dark:from-neutral-800 to-transparent pointer-events-none" />
+        <div className="opacity-0 group-hover/feature:opacity-100 transition duration-200 absolute inset-0 h-full w-full bg-gradient-to-t from-blue-900 dark:from-neutral-800 to-transparent pointer-events-none" />
       ) : (
-        <div className="opacity-0 group-hover/feature:opacity-100 transition duration-200 absolute inset-0 h-full w-full bg-gradient-to-b from-neutral-100 dark:from-neutral-800 to-transparent pointer-events-none" />
+        <div className="opacity-0 group-hover/feature:opacity-100 transition duration-200 absolute inset-0 h-full w-full bg-gradient-to-b from-blue-900 dark:from-neutral-800 to-transparent pointer-events-none" />
       )}
 
       <div className="mb-4 md:mb-4 relative md:z-10 md:left-10 z-10 flex justify-center md:justify-start text-[#4a8bef] dark:text-neutral-400">
@@ -100,7 +99,7 @@ const Feature = ({
         </span>
       </div>
 
-      <p className="text-sm text-neutral-400 dark:text-neutral-300 max-w-xs mx-auto md:mx-0 px-4 md:px-10 text-center md:text-left">
+      <p className="text-sm text-neutral-300 dark:text-neutral-300 max-w-xs mx-auto md:mx-0 px-4 md:px-10 text-center md:text-left">
         {description}
       </p>
     </div>

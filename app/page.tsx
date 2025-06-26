@@ -12,7 +12,6 @@
 
 // // export default function Home() {
 // //   return (
-   
 
 // // <>
 // //   <div className="flex flex-col">
@@ -31,7 +30,7 @@
 // //     </div>
 
 // //     </div>
-  
+
 // //     <PricingBasic id="services" />
 // //     <TestimonialsSection />
 // //     <Contact id="contact" />
@@ -39,7 +38,6 @@
 // //     <Footercomp />
 // //   </div>
 // // </>
-
 
 // //   );
 // // }
@@ -93,7 +91,6 @@
 //     </>
 //   );
 // }
-
 
 // import Head from "next/head";
 // import Hero from "@/components/sections/hero";
@@ -167,7 +164,6 @@ import Head from "next/head";
 import Hero from "@/components/sections/hero";
 import NavBar from "@/components/ui/navbar-elem";
 import TestimonialsSection from "@/components/sections/terstisec";
-// import { Component } from "@/components/sections/faq";
 import Contact from "@/components/sections/contactus";
 import { Cta } from "@/components/sections/Fcta";
 import { PricingBasic } from "@/components/sections/services";
@@ -189,35 +185,40 @@ export default function Home() {
       </Head>
 
       {/* ✅ PAGE SECTIONS */}
-      <div className="flex flex-col">
-        <NavBar />
-        <Hero />
-      </div>
+      <div className="bg-black">
+        <div className="flex flex-col ">
+          <NavBar />
+          <Hero />
+        </div>
+        <div className="md:max-w-320 flex justify-center mx-auto">
+          <div className="bg-black flex flex-col overflow-hidden">
+            <WhyWebzy />
+            <div id="works">
+              <div className="hidden md:block">
+                <DeskPort />
+              </div>
+              <div className="block md:hidden">
+                <MobilePort />
+              </div>
+            </div>
 
-      <div className="bg-black flex flex-col overflow-hidden">
-        <WhyWebzy />
-        <div id="works">
-          <div className="hidden md:block">
-            <DeskPort />
+            <div id="services">
+              <PricingBasic />
+            </div>
+            <div className="md:max-w-320 flex justify-center mx-auto">
+              <TestimonialsSection />
+            </div>
+
+            <FaqComp />
+
+            <div id="contact">
+              <Contact />
+            </div>
+
+            <Cta />
+            <Footercomp />
           </div>
-          <div className="block md:hidden">
-            <MobilePort />
-          </div>
         </div>
-
-        <div id="services">
-          <PricingBasic />
-        </div>
-
-        <TestimonialsSection />
-        <FaqComp />
-
-        <div id="contact">
-          <Contact />
-        </div>
-
-        <Cta />
-        <Footercomp />
       </div>
     </>
   );
