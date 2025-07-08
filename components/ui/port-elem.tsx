@@ -54,7 +54,7 @@ export default function HoverExpand({
             key={`image-container-${i}`}
             className={`group relative md:h-140 h-60 overflow-hidden rounded-2xl transition-all duration-300 ${
               selectedIndex === i
-                ? "sm:w-185 w-65"
+                ? "sm:w-200 w-65"
                 : "w-6 sm:w-5 md:w-8 xl:w-30"
             }`}
             onMouseEnter={() => !isMobile && setSelectedIndex(i)}

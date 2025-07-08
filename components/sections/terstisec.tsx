@@ -1,3 +1,4 @@
+
 'use client';
 import React from 'react';
 import { motion, useAnimation } from 'framer-motion';
@@ -178,89 +179,103 @@ const ScrollingRow: React.FC<ScrollingRowProps> = ({
 const TestimonialsSection: React.FC = () => {
   const row1Testimonials: Testimonial[] = [
     {
-    id: 1,
-    stars: 5,
-    text: "Webzy helped us bring Aura Digital Services online with a clean and fast website that truly represents our brand. The process was smooth and efficient from start to finish.",
-    name: "Prabhu",
-    title: "Founder, Aura Digital Services",
-    avatar: "P",
-  },
-  {
-    id: 2,
-    stars: 5,
-    text: "The website Webzy built for our interior brand is exactly what we envisioned. Clients now find us easily online, and it’s already making a difference.",
-    name: "Ecoplast Interiors",
-    title: "Interior Design Company",
-    avatar: "EI",
-  },
-  {
-    id: 3,
-    stars: 5,
-    text: "We started Webzy with one goal — to build conversion-focused websites that help brands grow. I’m proud of what we’re delivering to businesses across India.",
-    name: "Santhosh Perumal",
-    title: "Founder, Webzy Studios",
-    avatar: "SP",
-  },
+      id: 1,
+      stars: 5,
+      text: "Webzy helped us bring Aura Digital Services online with a clean and fast website that truly represents our brand. The process was smooth and efficient from start to finish.",
+      name: "Prabhu",
+      title: "Founder, Aura Digital Services",
+      avatar: "P",
+    },
+    {
+      id: 2,
+      stars: 5,
+      text: "The website Webzy built for our interior brand is exactly what we envisioned. Clients now find us easily online, and it's already making a difference.",
+      name: "Ecoplast Interiors",
+      title: "Interior Design Company",
+      avatar: "EI",
+    },
+    {
+      id: 3,
+      stars: 5,
+      text: "We started Webzy with one goal — to build conversion-focused websites that help brands grow. I'm proud of what we're delivering to businesses across India.",
+      name: "Santhosh Perumal",
+      title: "Founder, Webzy Studios",
+      avatar: "SP",
+    },
   ];
 
   const row2Testimonials: Testimonial[] = [
     {
-    id: 1,
-    stars: 5,
-    text: "Webzy helped us bring Aura Digital Services online with a clean and fast website that truly represents our brand. The process was smooth and efficient from start to finish.",
-    name: "Prabhu",
-    title: "Founder, Aura Digital Services",
-    avatar: "P",
-  },
-  {
-    id: 2,
-    stars: 5,
-    text: "The website Webzy built for our interior brand is exactly what we envisioned. Clients now find us easily online, and it’s already making a difference.",
-    name: "Ecoplast Interiors",
-    title: "Interior Design Company",
-    avatar: "EI",
-  },
-  {
-    id: 3,
-    stars: 5,
-    text: "We started Webzy with one goal — to build conversion-focused websites that help brands grow. I’m proud of what we’re delivering to businesses across India.",
-    name: "Santhosh Perumal",
-    title: "Founder, Webzy Studios",
-    avatar: "SP",
-  },
+      id: 1,
+      stars: 5,
+      text: "Webzy helped us bring Aura Digital Services online with a clean and fast website that truly represents our brand. The process was smooth and efficient from start to finish.",
+      name: "Prabhu",
+      title: "Founder, Aura Digital Services",
+      avatar: "P",
+    },
+    {
+      id: 2,
+      stars: 5,
+      text: "The website Webzy built for our interior brand is exactly what we envisioned. Clients now find us easily online, and it's already making a difference.",
+      name: "Ecoplast Interiors",
+      title: "Interior Design Company",
+      avatar: "EI",
+    },
+    {
+      id: 3,
+      stars: 5,
+      text: "We started Webzy with one goal — to build conversion-focused websites that help brands grow. I'm proud of what we're delivering to businesses across India.",
+      name: "Santhosh Perumal",
+      title: "Founder, Webzy Studios",
+      avatar: "SP",
+    },
   ];
 
   const row3Testimonials: Testimonial[] = [
     {
-    id: 1,
-    stars: 5,
-    text: "Webzy helped us bring Aura Digital Services online with a clean and fast website that truly represents our brand. The process was smooth and efficient from start to finish.",
-    name: "Prabhu",
-    title: "Founder, Aura Digital Services",
-    avatar: "P",
-  },
-  {
-    id: 2,
-    stars: 5,
-    text: "The website Webzy built for our interior brand is exactly what we envisioned. Clients now find us easily online, and it’s already making a difference.",
-    name: "Ecoplast Interiors",
-    title: "Interior Design Company",
-    avatar: "EI",
-  },
-  {
-    id: 3,
-    stars: 5,
-    text: "We started Webzy with one goal — to build conversion-focused websites that help brands grow. I’m proud of what we’re delivering to businesses across India.",
-    name: "Santhosh Perumal",
-    title: "Founder, Webzy Studios",
-    avatar: "SP",
-  },
+      id: 1,
+      stars: 5,
+      text: "Webzy helped us bring Aura Digital Services online with a clean and fast website that truly represents our brand. The process was smooth and efficient from start to finish.",
+      name: "Prabhu",
+      title: "Founder, Aura Digital Services",
+      avatar: "P",
+    },
+    {
+      id: 2,
+      stars: 5,
+      text: "The website Webzy built for our interior brand is exactly what we envisioned. Clients now find us easily online, and it's already making a difference.",
+      name: "Ecoplast Interiors",
+      title: "Interior Design Company",
+      avatar: "EI",
+    },
+    {
+      id: 3,
+      stars: 5,
+      text: "We started Webzy with one goal — to build conversion-focused websites that help brands grow. I'm proud of what we're delivering to businesses across India.",
+      name: "Santhosh Perumal",
+      title: "Founder, Webzy Studios",
+      avatar: "SP",
+    },
   ];
 
   return (
     <div className="text-white relative overflow-hidden min-h-screen md:mt-65">
-      <div className="container mx-auto px-4 md:px-6 py-12 md:py-16">
-        <div className="text-center mb-8 md:mb-16">
+      <div className="container mx-auto px-4 md:px-6 py-12 md:py-16 relative">
+        {/* Left gradient fade */}
+        <div className="absolute left-0 top-0 h-full w-24 md:w-32 z-10 pointer-events-none"
+          style={{
+            background: 'linear-gradient(90deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%)'
+          }}
+        />
+        
+        {/* Right gradient fade */}
+        <div className="absolute right-0 top-0 h-full w-24 md:w-32 z-10 pointer-events-none"
+          style={{
+            background: 'linear-gradient(270deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%)'
+          }}
+        />
+
+        <div className="text-center mb-8 md:mb-16 relative z-20">
           <motion.h1
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
@@ -271,7 +286,7 @@ const TestimonialsSection: React.FC = () => {
           </motion.h1>
         </div>
 
-        <div className="space-y-4 md:space-y-6">
+        <div className="space-y-4 md:space-y-6 relative z-0">
           <ScrollingRow testimonials={row1Testimonials} direction="left" speed={24} />
           <ScrollingRow testimonials={row2Testimonials} direction="right" speed={48} />
           <ScrollingRow testimonials={row3Testimonials} direction="left" speed={24} />

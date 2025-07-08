@@ -10,7 +10,7 @@ const images = [
   "/aura.png",
   "/eco.png",
   "/webzy.png",
-  "/temp2.png",
+  // "/temp2.png",
   "/temp4.png",
 ]
 
