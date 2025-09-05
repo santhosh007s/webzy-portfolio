@@ -2,9 +2,22 @@
 import { Carousel } from "@/components/ui/mob-port-elem";
 
 const slides = [
-  { src: "/aura.png", link: "https://auradigitalservices.in/", alt: "Aura Logo" },
-  { src: "/eco.png", link: "https://www.ecoplastinteriors.com/", alt: "Eco Plast Logo" },
-  { src: "/webzy.png", link: "https://webzy-portfolio-git-main-santhoshperumal123ssp-8822s-projects.vercel.app/", alt: "Cooking" },
+  {
+    src: "/aura.png",
+    link: "https://auradigitalservices.in/",
+    alt: "Aura Logo",
+  },
+  {
+    src: "/eco.png",
+    link: "https://www.ecoplastinteriors.com/",
+    alt: "Eco Plast Logo",
+  },
+  { src: "/webzy.png", link: "https://www.webzystudios.com/", alt: "webzy studios" },
+  {
+    src: "/trendyThreads.png",
+    link: "https://trendythreads.art/",
+    alt: "Trendy Threads ",
+  },
 ];
 
 export function MobilePort() {

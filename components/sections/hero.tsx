@@ -130,7 +130,6 @@
 //   );
 // }
 
-
 import Link from "next/link";
 import SimpleServices from "@/components/ui/heroani-elem";
 import Arrow from "@/components/svgs/arrow";

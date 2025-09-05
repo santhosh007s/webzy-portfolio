@@ -124,13 +124,11 @@
 //           }}
 //         />
 //       </Head>
-
 //       {/* ✅ PAGE SECTIONS */}
 //       <div className="flex flex-col">
 //         <NavBar />
 //         <Hero />
 //       </div>
-
 //       <div className="bg-black flex flex-col overflow-hidden">
 //         <WhyWebzy />
 //         <div id="works">
@@ -141,18 +139,14 @@
 //             <MobilePort />
 //           </div>
 //         </div>
-
 //         <div id="services">
 //           <PricingBasic />
 //         </div>
-
 //         <TestimonialsSection />
 //         <FaqComp />
-
 //         <div id="contact">
 //           <Contact />
 //         </div>
-
 //         <Cta />
 //         <Footercomp />
 //       </div>
@@ -183,7 +177,6 @@ export default function Home() {
           content="TSyix6K7GzXw9h76jf6eKx0P5LbcFzM_il3_1Cdc_EM"
         />
       </Head>
-
       {/* ✅ PAGE SECTIONS */}
       <div className="bg-black">
         <div className="flex flex-col ">
@@ -201,20 +194,16 @@ export default function Home() {
                 <MobilePort />
               </div>
             </div>
-
             <div id="services">
               <PricingBasic />
             </div>
             <div className="md:max-w-320 flex justify-center mx-auto">
               <TestimonialsSection />
             </div>
-
             <FaqComp />
-
             <div id="contact">
               <Contact />
             </div>
-
             <Cta />
             <Footercomp />
           </div>

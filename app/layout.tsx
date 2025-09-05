@@ -11,7 +11,7 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
-});
+}); 
 
 export const metadata: Metadata = {
   title: "Webzy | Best Web Development & Digital Services Agency",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     "portfolio websites",
     "business website India",
     "freelance web developer",
-    "affordable website design",
+    "affordable website design", 
   ],
   authors: [{ name: "Santhosh Perumal", url: "https://webzystudios.com" }],
   robots: {

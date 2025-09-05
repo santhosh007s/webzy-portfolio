@@ -13,8 +13,7 @@ const NavBar = () => {
   return (
     <>
       <div className="nav w-full z-40 fixed top-12 md:top-12 flex items-center justify-center opacity-0 -translate-y-5 transition-all duration-500">
-        <div
-          className="min-w-20 w-[80%] xl:w-[27%] md:h-[64px] h-[50%]
+        <div className="min-w-20 w-[80%] xl:w-[27%] md:h-[64px] h-[50%]
       noise-pattern bg-repeat border border-white/10 bg-white/5 backdrop-blur-2xl px-4 py-4 flex items-center
       justify-between rounded-xl shadow-lg"
         >
